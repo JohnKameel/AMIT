@@ -3,10 +3,8 @@ void main() {
   Map<String, dynamic> carDetails = {
     'brand': 'bmw',
     'model': '320i',
-    'colors': ['silver', 'white'],
+    'colors': 'silver',
     'price': 900000,
   };
-
-  carDetails['colors'].add('blue');
   print(carDetails);
 }
